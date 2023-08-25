@@ -90,7 +90,7 @@
         $username = $_POST["username"];
         $password = $_POST["password"];
 
-        if(empty($username)) echo "username is missing";
+        if(empty($username)) echo "username is missing"; 
         elseif(empty($password)) echo "password is missing";
         else echo "hello {$username}";
     }
